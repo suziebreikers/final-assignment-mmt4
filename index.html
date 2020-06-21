@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=0.5">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<link href="https://vjs.zencdn.net/7.8.2/video-js.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link href="css/style.css" rel="stylesheet">
+<title>Whole-task</title>
+</head>
+
+<body>
+ 
+<header>
+<div class="nav-center">
+  <nav> 
+  <div class="logo"><img  src="img/logo.png"></div>
+    <ul>
+      <li><a href="#">OVER ONS</a></li>
+      <li><a href="#">LESMATERIAAL</a></li>
+      <li><a href="#">CONTACT</a></li>
+    </ul>
+
+    <div class="switch"> 
+      <div class="switch-toggle"> 
+        <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label>
+      </div>
+    </div>
+ </nav>
+</div>
+
+<div class="overlay"></div>
+
+<div class="header-wrap"> 
+<h1>Van beginner naar expert <br/> Het lesmateriaal brengt je verder
+</h1>
+<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis 
+  vestibulum. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor 
+  id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at 
+  eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus</p>
+</div>
+</header>
+<main>
+
+<div class="icons-wrap">
+  <div class="icons">
+    <div class="icons-box">
+      <img src="img/leer.png">
+      <a href="#">Leer</a>
+    </div>
+    <div class="icons-box">
+      <img src="img/codeer.png">
+      <a href="#">Codeer</a>
+    </div>
+    <div class="icons-box">
+      <img src="img/speel.png">
+      <a href="#">Speel</a>
+    </div>
+  </div> 
+
+  </div>
+
+<article>
+<div class="accordion-container"> 
+  <h2>Playlist</h2>
+
+   <div class="acc-head"> 
+  <div class="icon"><img class="acc-img" src="img/Path 15@2x.png"></div> 
+   <h2>Algemene introductie</h2>
+   </div>
+   <div class="acc-content"> 
+
+    <video  id="my-video" class="video-js" controls data-setup="{}">
+      <source src="https://player.vimeo.com/external/428997290.hd.mp4?s=9d50498e40913523b8ee158710c4d2a9e28b9881&profile_id=175" type=video/mp4>
+    </video>
+
+    <div class="controls">
+      <button class="play-pause">
+        <i class="fa fa-play"></i>
+        <i class="fa fa-pause"></i>
+      </button>
+      <button class="play-b" ><i class="material-icons">fast_rewind</i></button>
+      <button class="play-f" ><i class="material-icons">fast_forward</i></button>
+    </div>
+
+    <div class="acc-head"> 
+    <div class="icon"><img src="img/Path 15@2x.png"></div> 
+    <h2>Workshop 1: Kleuren met code</h2> 
+    </div>
+    <div class="acc-content">
+      <video  id="my-video" class="video-js" data-setup="{}" controls>
+        <source src="https://player.vimeo.com/external/430281824.hd.mp4?s=11f9b01d1e43ffdc32d63c1a82c4734862d156e0&profile_id=175" type=video/mp4>
+      </video>
+      </div>
+    </div>
+
+    <div class="acc-head"> 
+    <div class="icon"><img src="img/Path 15@2x.png"></div> 
+    <h2>Workshop 2: Vormen maken</h2> 
+    </div>
+    <div class="acc-content">
+      
+      <video  id="my-video" class="video-js" data-setup="{}" controls>
+        <source src="https://player.vimeo.com/external/430283700.hd.mp4?s=6f6eb384eaa78582b2ea32ef317a9e3d10e9ae3d&profile_id=175" type=video/mp4>
+      </video>
+
+      <div class="controls">
+        <button class="play-pause">
+          <i class="fa fa-play"></i>
+          <i class="fa fa-pause"></i>
+        </button>
+        <button class="play-b" ><i class="material-icons">fast_rewind</i></button>
+        <button class="play-f" ><i class="material-icons">fast_forward</i></button>
+      </div>
+    </div>
+
+    <div class="acc-head"> 
+    <div class="icon"><img src="img/Path 15@2x.png"></div> 
+    <h2>Workshop 3: Beweging</h2> 
+    </div>
+    <div class="acc-content">
+    <video  id="my-video" class="video-js" data-setup="{}" controls>
+    <source src="https://player.vimeo.com/external/430640477.hd.mp4?s=d97dfc1a71d5ec4e1e4cbc5e0e328deebf248f4f&profile_id=175" type=video/mp4>
+    </video>
+
+    <div class="controls">
+      <button class="play-pause">
+        <i class="fa fa-play"></i>
+        <i class="fa fa-pause"></i>
+      </button>
+      <button class="play-b" ><i class="material-icons">fast_rewind</i></button>
+      <button class="play-f" ><i class="material-icons">fast_forward</i></button>
+    </div>
+    </div>
+
+    <div class="acc-head"> 
+      <div class="icon"><img src="img/Path 15@2x.png"></div> 
+      <h2>Workshop 4: Variabelen gebruiken </h2> 
+      </div>
+      <div class="acc-content">
+        <video  id="my-video" class="video-js" data-setup="{}" controls>
+          <source src="https://player.vimeo.com/external/430282096.hd.mp4?s=1bdde3186bfa2097dde563d6b4ee1bac33f2b2c3&profile_id=175" type=video/mp4>
+        </video>
+
+        <div class="controls">
+          <button class="play-pause">
+            <i class="fa fa-play"></i>
+            <i class="fa fa-pause"></i>
+          </button>
+          <button class="play-b" ><i class="material-icons">fast_rewind</i></button>
+          <button class="play-f" ><i class="material-icons">fast_forward</i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="support-wrap">
+<div clas="text-button"> 
+ <h5>Support</h5>
+ <p>Onze studenten staan voor je klaar. Etiam porta sem malesuada magna 
+   mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. </p>
+<button class="contact-btn"><a href="#">NAAR CONTACT</a></button>
+</div>
+</div>
+
+<div id="slideshow">
+  <div class="slider-wrap">
+    <div class="items"> 
+      <img src="img/alina-kovalchuk-1143928-unsplash.png"> 
+      <div class="post">
+      <div class="info-items">
+      <h5>Alina kovalchuk</h5>
+      <h6>Hoofd support</h6>
+      <button><a href="#">Mail</a></button>
+    </div>
+    </div>
+    </div>
+
+    <div class="items">
+     <img src="img/giorgio-encinas-781653-unsplash.png">
+     <div class="post">
+      <div class="info-items">
+      <h5>Gorgie Encinas </h5>
+      <h6>Hoofd support</h6>
+      <button><a href="#">Mail</a></button>
+    </div>
+    </div>
+    </div>
+
+    <div class="items">
+      <img src="img/kal-visuals-592091-unsplash.png"> 
+      <div class="post">
+        <div class="info-items">
+        <h5>Kal Visuals</h5>
+        <h6>Hoofd support</h6>
+        <button><a href="#">Mail</a></button>
+      </div>
+      </div>
+    </div>
+
+    <div class="items">
+      <img src="img/norman-toth-177973-unsplash.png">
+      <div class="post">
+        <div class="info-items">
+        <h5>Norman Toth</h5>
+        <h6>Hoofd support</h6>
+        <button><a href="#">Mail</a></button>
+      </div>
+      </div>
+    </div>
+    </div>  
+</div> 
+
+</article>
+</main>
+
+<footer> 
+  <div class="overlay"></div>
+  <div class="header-wrap"> 
+  <h1>Klaar voor de <br/>volgende uitdaging? </h1>
+  <p>In ons expertprogramma vind je lessen voor gevorderden</p>
+  <button class="kom-maar-op"><a href="#">KOM MAAR OP</a></button>
+  </div>
+</footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://vjs.zencdn.net/7.8.2/video.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
